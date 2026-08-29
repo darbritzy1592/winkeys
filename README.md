@@ -61,20 +61,29 @@ so this one is [GPL-3.0](LICENSE) and always will be.
 
 ## Install
 
-Download the latest `.zip` from [Releases](../../releases), unzip it, and drag
-`WinKeys.app` to your Applications folder.
+**[⬇ Download WinKeys 0.1.0](https://github.com/neural-beat/winkeys/releases/latest/download/WinKeys-0.1.0.zip)**
 
-The app is not notarised by Apple, so the first launch needs a right-click:
+> **Download `WinKeys-0.1.0.zip`, not "Source code (zip)".**
+> The source archive contains the code, not the app — there is no `.app` inside
+> it, and nothing will happen when you open it. The file you want is the one
+> named `WinKeys-<version>.zip`.
 
-```
-Right-click WinKeys.app → Open → Open
-```
+1. Unzip it and drag `WinKeys.app` to your Applications folder.
+2. **Right-click the app → Open → Open.** WinKeys is not notarised by Apple, so
+   a plain double-click is refused the first time.
+3. Grant the Accessibility permission when asked.
 
-Or, if macOS still refuses:
+If macOS still refuses to open it:
 
 ```bash
 xattr -dr com.apple.quarantine /Applications/WinKeys.app
 ```
+
+### Where is it after opening?
+
+**In the menu bar, not the Dock.** WinKeys has no Dock icon and no main window —
+look for the keyboard icon at the top right of your screen. Everything is in that
+menu: the on/off switch, the language, and whether it opens at login.
 
 ## Build it yourself
 
