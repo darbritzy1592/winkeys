@@ -31,6 +31,11 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
             forName: .languageChanged, object: nil, queue: .main
         ) { [weak self] _ in self?.refreshMenu() }
 
+        // Start translating straight away when the permission is already there.
+        // Waiting for the welcome window to be dismissed would leave the app
+        // installed, visible and silently doing nothing, which reads as broken.
+        if AXIsProcessTrusted() { startRemapper() }
+
         if !UserDefaults.standard.bool(forKey: "hasSeenWelcome") {
             showWelcome()
             return

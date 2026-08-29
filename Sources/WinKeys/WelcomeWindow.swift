@@ -20,7 +20,6 @@ final class WelcomeWindow: NSWindowController, NSWindowDelegate {
         let window = NSWindow(contentRect: NSRect(x: 0, y: 0, width: 460, height: 470),
                               styleMask: [.titled, .closable],
                               backing: .buffered, defer: false)
-        window.title = "Bienvenido a \(AppInfo.name)"
         window.center()
         self.init(window: window)
         self.onFinish = onFinish
@@ -60,6 +59,7 @@ final class WelcomeWindow: NSWindowController, NSWindowDelegate {
         }
 
         let t = L10n.shared.s
+        window.title = t.welcomeWindowTitle
         stack.addArrangedSubview(label(t.welcomeTitle,
                                        font: .systemFont(ofSize: 24, weight: .semibold)))
         stack.addArrangedSubview(label(t.tagline,
@@ -70,7 +70,7 @@ final class WelcomeWindow: NSWindowController, NSWindowDelegate {
         stack.addArrangedSubview(bullet("⌘", t.bulletShortcuts))
         stack.addArrangedSubview(bullet("↔", t.bulletHomeEnd))
         stack.addArrangedSubview(bullet("✳", t.bulletTeaches))
-        stack.addArrangedSubview(bullet("⛔", t.bulletExclusions))
+        stack.addArrangedSubview(bullet("⊘", t.bulletExclusions))
         stack.addArrangedSubview(separator())
 
         statusLabel = label(t.permissionNeeded,

@@ -59,7 +59,7 @@ struct Strings {
     let checkUpdates, showWelcome, about, grantAccess, quit, languageMenu: String
 
     // Welcome
-    let welcomeTitle, tagline: String
+    let welcomeWindowTitle, welcomeTitle, tagline: String
     let bulletShortcuts, bulletHomeEnd, bulletTeaches, bulletExclusions: String
     let permissionNeeded, permissionGranted, openSystemSettings, start: String
 
@@ -93,6 +93,7 @@ struct Strings {
         quit: "Salir de WinKeys",
         languageMenu: "Idioma",
 
+        welcomeWindowTitle: "Bienvenido a WinKeys",
         welcomeTitle: "WinKeys",
         tagline: "Tus atajos de Windows, funcionando en el Mac.",
         bulletShortcuts: "Ctrl+C, Ctrl+V, Ctrl+Z y los demás hacen lo que esperas.",
@@ -144,6 +145,7 @@ struct Strings {
         quit: "Quit WinKeys",
         languageMenu: "Language",
 
+        welcomeWindowTitle: "Welcome to WinKeys",
         welcomeTitle: "WinKeys",
         tagline: "Your Windows shortcuts, working on the Mac.",
         bulletShortcuts: "Ctrl+C, Ctrl+V, Ctrl+Z and the rest do what you expect.",

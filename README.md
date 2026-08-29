@@ -8,7 +8,9 @@ that used to work, and every day the Mac ignores it.
 
 WinKeys fixes that with one switch and no configuration.
 
-<!-- SCREENSHOT -->
+<p align="center">
+  <img src="docs/welcome-en.png" width="440" alt="WinKeys welcome window">
+</p>
 
 ## What it does
 
@@ -88,7 +90,11 @@ identity and macOS asks for the Accessibility permission again each time.
 ## Languages
 
 English and Spanish. It follows your system on first launch and you can change
-it from the menu.
+it from the welcome screen or the menu bar at any time.
+
+<p align="center">
+  <img src="docs/welcome-es.png" width="360" alt="WinKeys in Spanish">
+</p>
 
 ## Licence
 
