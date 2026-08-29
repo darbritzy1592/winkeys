@@ -1,5 +1,7 @@
 # WinKeys
 
+**English** · [Español](README.es.md)
+
 **Your Windows keyboard habits, working on the Mac.**
 
 You just switched to a Mac. `Ctrl+C` does nothing. `Home` jumps to the top of the
